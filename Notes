@@ -1,0 +1,24 @@
+
+Daily sending limit
+
+apt-get install cron screen
+getty tty -a root
+
+cron -f
+
+aipiggybotdead@gmail.com
+pip install --upgrade google-api-python-client
+
+
+
+drop table IF EXISTS email;
+create table IF NOT EXISTS email 
+(name text,
+ email text,
+ subject text,
+ msg     text,
+ sent    datetime);
+
+insert into email (name,email,subject,msg) values ('Mike','mchirico@gmail.com','Sample "test" message','Hi Mike:\n\n This is a sample message.\n\nRegards,\n\nPiggy');
+insert into email (name,email,subject,msg) values ('Mike','mike.chirico@cwxstat.com','Sample "test" message','Hi Mike:\n\n This is a sample message.\n\nRegards,\n\nPiggy');
+
